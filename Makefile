@@ -1,5 +1,5 @@
 PKG_NAME := pypi-types_pyyaml
-URL = https://files.pythonhosted.org/packages/64/88/c231c5d97bb91fdfd673076c9d6cf3e3fcbd6c5d13d8e5181642d9c806ac/types-PyYAML-6.0.11.tar.gz
+URL = https://files.pythonhosted.org/packages/d3/47/e1941cf017d2dbf4411f6c8a3932f72eb900572ced7d0ac5d5bab1145357/types-PyYAML-6.0.12.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
