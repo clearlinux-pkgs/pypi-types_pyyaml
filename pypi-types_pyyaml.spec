@@ -4,10 +4,10 @@
 # Using build pattern: distutils3
 #
 Name     : pypi-types_pyyaml
-Version  : 6.0.12.11
-Release  : 27
-URL      : https://files.pythonhosted.org/packages/04/c0/7358cce7f79f1b369ebbe57da67d5f538ea81ce5b9c97093121bfc973f09/types-PyYAML-6.0.12.11.tar.gz
-Source0  : https://files.pythonhosted.org/packages/04/c0/7358cce7f79f1b369ebbe57da67d5f538ea81ce5b9c97093121bfc973f09/types-PyYAML-6.0.12.11.tar.gz
+Version  : 6.0.12.12
+Release  : 28
+URL      : https://files.pythonhosted.org/packages/af/48/b3bbe63a129a80911b60f57929c5b243af909bc1c9590917434bca61a4a3/types-PyYAML-6.0.12.12.tar.gz
+Source0  : https://files.pythonhosted.org/packages/af/48/b3bbe63a129a80911b60f57929c5b243af909bc1c9590917434bca61a4a3/types-PyYAML-6.0.12.12.tar.gz
 Summary  : Typing stubs for PyYAML
 Group    : Development/Tools
 License  : Apache-2.0
@@ -41,10 +41,10 @@ python3 components for the pypi-types_pyyaml package.
 
 
 %prep
-%setup -q -n types-PyYAML-6.0.12.11
-cd %{_builddir}/types-PyYAML-6.0.12.11
+%setup -q -n types-PyYAML-6.0.12.12
+cd %{_builddir}/types-PyYAML-6.0.12.12
 pushd ..
-cp -a types-PyYAML-6.0.12.11 buildavx2
+cp -a types-PyYAML-6.0.12.12 buildavx2
 popd
 
 %build
@@ -52,7 +52,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1689879512
+export SOURCE_DATE_EPOCH=1695655516
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
