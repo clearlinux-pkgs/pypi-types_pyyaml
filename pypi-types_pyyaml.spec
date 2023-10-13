@@ -5,7 +5,7 @@
 #
 Name     : pypi-types_pyyaml
 Version  : 6.0.12.12
-Release  : 28
+Release  : 29
 URL      : https://files.pythonhosted.org/packages/af/48/b3bbe63a129a80911b60f57929c5b243af909bc1c9590917434bca61a4a3/types-PyYAML-6.0.12.12.tar.gz
 Source0  : https://files.pythonhosted.org/packages/af/48/b3bbe63a129a80911b60f57929c5b243af909bc1c9590917434bca61a4a3/types-PyYAML-6.0.12.12.tar.gz
 Summary  : Typing stubs for PyYAML
