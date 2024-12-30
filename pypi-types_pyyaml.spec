@@ -6,10 +6,10 @@
 # autospec commit: 5424026
 #
 Name     : pypi-types_pyyaml
-Version  : 6.0.12.20241221
-Release  : 36
-URL      : https://files.pythonhosted.org/packages/f4/60/ba3f23024bdd406e65c359b9dbd9757f058986bd57d94f6639015f9a9fae/types_pyyaml-6.0.12.20241221.tar.gz
-Source0  : https://files.pythonhosted.org/packages/f4/60/ba3f23024bdd406e65c359b9dbd9757f058986bd57d94f6639015f9a9fae/types_pyyaml-6.0.12.20241221.tar.gz
+Version  : 6.0.12.20241230
+Release  : 37
+URL      : https://files.pythonhosted.org/packages/9a/f9/4d566925bcf9396136c0a2e5dc7e230ff08d86fa011a69888dd184469d80/types_pyyaml-6.0.12.20241230.tar.gz
+Source0  : https://files.pythonhosted.org/packages/9a/f9/4d566925bcf9396136c0a2e5dc7e230ff08d86fa011a69888dd184469d80/types_pyyaml-6.0.12.20241230.tar.gz
 Summary  : Typing stubs for PyYAML
 Group    : Development/Tools
 License  : Apache-2.0
@@ -62,10 +62,10 @@ python3 components for the pypi-types_pyyaml package.
 
 
 %prep
-%setup -q -n types_pyyaml-6.0.12.20241221
-cd %{_builddir}/types_pyyaml-6.0.12.20241221
+%setup -q -n types_pyyaml-6.0.12.20241230
+cd %{_builddir}/types_pyyaml-6.0.12.20241230
 pushd ..
-cp -a types_pyyaml-6.0.12.20241221 buildavx2
+cp -a types_pyyaml-6.0.12.20241230 buildavx2
 popd
 
 %build
@@ -73,7 +73,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1735100292
+export SOURCE_DATE_EPOCH=1735573350
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
